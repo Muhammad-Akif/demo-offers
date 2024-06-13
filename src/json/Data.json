@@ -1,0 +1,54 @@
+{
+  "bannerHeading": "INTRODUCING NAMMOS HOTELS & RESORTS",
+  "OfferTitle": "OFFERS",
+  "OfferDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis totam distinctio sunt quo adipisci minus quos suscipit, provident nulla ad, libero voluptate delectus! sunt delectus! Voluptatibus doloribus totam accusantium quidem, quod iste, provident nesciunt excepturi iure in nam, sapiente voluptas.",
+  "offersData": [
+    {
+      "title": "Prepay & Save",
+      "stayDate": "Now until October 6",
+      "description": "Prepay your stay and save up to 10% on rates. Rates are per guestroom (single or double occupancy) and include breakfast, Wi-Fi, VAT, service charge, and municipality fee (except climate resilience fee of €10.00 per room per night). Additional benefits include:",
+      "benefits": [
+        "Two sunbeds per room on the renowned Nammos Beach",
+        "Bespoke butler service",
+        "Daily breakfast",
+        "Local souvenir upon departure"
+      ],
+      "note": "*Available up to 30 days prior the arrival date",
+      "terms": [
+        "Subject to rate availability",
+        "Full prepayment, non-refundable"
+      ],
+      "imageSrc": "./images/img_01.avif"
+    },
+    {
+      "title": "Suite Offers",
+      "stayDate": "June 14 - August 30, 2024",
+      "description": "Book a suite for 5 nights or more and enjoy a complimentary roundtrip transfer, champagne and fruits, and private in-room check-in. Additional benefits include:",
+      "benefits": [
+        "Two sunbeds per room on the renowned Nammos Beach",
+        "Bespoke butler service",
+        "Daily breakfast"
+      ],
+      "terms": [
+        "Subject to rate availability",
+        "Seasonal cancellation and deposit period applies"
+      ],
+      "imageSrc": "./images/img_02.avif"
+    },
+    {
+      "title": "Stay 4, Pay 3",
+      "stayDate": "September 6 - October 6",
+      "description": "Book up to 30 days prior to arrival and take advantage of our \"Stay 4, Pay 3\" offer. Rates are per guestroom (single or double occupancy) and include breakfast, Wi-Fi, VAT, service charge, and municipality fee (except climate resilience fee of €10.00 per room per night). Additional benefits include:",
+      "benefits": [
+        "Two sunbeds per room on the renowned Nammos Beach",
+        "Bespoke butler service",
+        "Daily breakfast"
+      ],
+      "terms": [
+        "Subject to rate availability",
+        "Full prepayment, non-refundable"
+      ],
+      "imageSrc": "./images/img_03.avif"
+    }
+  ]
+}

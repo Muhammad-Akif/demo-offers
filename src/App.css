@@ -1,38 +1,134 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Georgia', serif;
+}
+
+/* src/components/Header.css */
+.header {
+  text-align: center;
+  padding: 24px 0;
+}
+
+/* src/components/Banner.css */
+.banner {
+  background-image: url('./assets/images/beach_banner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 150px);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner h1 {
+  padding-top: 50px;
+  font-size: 3em;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* src/components/Offers.css */
+.offers {
+  padding: 80px 30px;
+  letter-spacing: .2px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.offers-heading {
+  text-align: center;
+  font-family: 'Serif'; /* Change to the desired font-family */
+  font-size: 36px; /* Adjust font size as needed */
+  font-weight: bold;
+}
+
+.offers-content {
+  letter-spacing: .2px;
+  max-width: 1000px;
+  font-family: 'Sans-serif'; /* Change to the desired font-family */
+  font-size: 20px; /* Adjust font size as needed */
+  line-height: 1.5;
+  color: #555; /* Text color */
+}
+
+
+/* src/Banner.css */
+.card_banner {
+  display: flex;
+  height: 75vh;
+  overflow: hidden;
+  background-color: #E6F2F2; /* Light background color */
+}
+
+.text-section {
+  flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.text-section h1 {
+  font-family: 'Serif'; /* Change to the desired font-family */
+  font-size: 36px; /* Adjust font size as needed */
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding: 0px 20px 0 50px;
+}
+
+.text-section p,ul {
+  font-family: 'Sans-serif'; /* Change to the desired font-family */
+  font-size: 16px; /* Adjust font size as needed */
+  line-height: 1.5;
+  color: #555; /* Text color */
+  max-width: 800px;
+  padding: 0px 20px 0 50px;
+}
+
+.text-section ul{
+  padding-left: 70px;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Adjust if you need rounded corners */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* src/Footer.css */
+.footer {
+  background-color: white;
+  padding: 25px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
 }
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
